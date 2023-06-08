@@ -1,0 +1,211 @@
+main{
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/portada-uno.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 15rem;
+        h2{
+            color: #ff893b;
+            margin-bottom: 1rem;
+            span{
+                color: #ffffff;
+            }
+        }
+        p{
+            text-align: center;
+            color: #ffffff;
+        }
+        a {
+            background-color: #fd3434;
+            color: #ffffff;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+    }
+    .about-name {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 1000px;
+            height: auto;
+        }
+        .about-text{
+            h2{
+                color: #ff893b;
+                margin-bottom: 1rem;
+                text-align: center;
+                span{
+                    color: #525252;
+                }
+            }
+            p{
+                text-align: center;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .nuestros-vehiculos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: #fd3434;
+        h3{
+            font-size: 2em;
+            color: #ffffff;
+        }
+    }
+    .servicios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #ffffff;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        .servicios-card {
+            text-align: center;
+            width: 300px;
+            height: auto;
+            background-color: #a8a8a8;
+            border-radius: 5px;
+            padding: 30px;
+            margin: 20px;
+            img {
+                width: 100%;
+                height: 300px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+            }
+            h3 {
+                font-size: 2em;
+                margin: 0;
+                margin-bottom: 3px
+            }
+            p{
+                margin-bottom: 1.5rem;
+            }
+            a {
+                background-color: #fd3434;
+                color: #ffffff;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            transition: 1s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    .destinos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: wrap;
+        div{
+            padding: 5rem;
+            border-radius: 1rem;
+            margin-left: 1rem;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+        .eventos-empresariales{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/empresarial.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            h3{
+                color: #ffffff;
+            }
+            
+        }
+        .turismo{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/turismo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            h3{
+                color: #ffffff;
+            }
+            
+        }
+        .excursiones{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/excurciones.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            h3{
+                color: #ffffff;
+            }
+            
+        }
+        .casamientos{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/casamiento.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            h3{
+                color: #ffffff;
+            }
+            
+        }
+        .cumpleanios{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/cumple.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            h3{
+                color: #ffffff;
+            }
+            
+        }
+        .eventos{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/eventos-deportivos.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            h3{
+                color: #ffffff;
+            }
+            
+        }
+    }
+    .formulario-de-contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem;
+        h2{
+            color: #000000;
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        form{
+            width: 38rem;
+            margin: auto;
+            background-color: #ffffff;
+            input{
+                margin: 12px;
+                padding: 8px;
+                width: 38rem;
+            }
+            textarea{
+                margin: 12px;
+                padding: 8px;
+                min-width: 38rem;
+                max-width: 38rem;
+                min-height: 100px;
+                max-height: 300px;
+            }
+            .btn {
+                background-color: #fd3434;
+                color: #ffffff;
+                border: none;
+                padding: 1rem;
+            }
+        }
+    }
+}
