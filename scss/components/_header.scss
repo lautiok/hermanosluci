@@ -1,18 +1,15 @@
 header{
     background-color: #fd3434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .bloque-uno{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: .5rem;
         .logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            img {
-                width: 3rem;
-                height: auto;
-            }
+            width: 150px;
+            height: auto;
             h1{
                 color: #ff893b;
                 font-weight: 800;
@@ -32,18 +29,33 @@ header{
             }
         }
     }
-    .bloque-dos {
+    .button{
+            display: none;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            svg{
+                width: 30px;
+                height: 30px;
+                color: white;
+                transition: 0.3s;
+            }
+        }
+    .nav{
+        width: 100%;
         border: 0.1px solid #474747;
-        ul {
+        .ul {
             display: flex;
+            flex-flow: wrap;
             justify-content: center;
             align-items: center;
-            li{
-                padding: 1rem;
-                a{
-                    color: #ffffff;
+                .li {
+                    padding: 1rem;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
                 }
-            }
         }
     }
 }

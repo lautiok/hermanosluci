@@ -1,39 +1,45 @@
 main{
     .hero{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
         background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/portada-uno.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 15rem;
-        h2{
-            color: #ff893b;
-            margin-bottom: 1rem;
-            span{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        .informacion-hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                color: #ff893b;
+                margin-bottom: 1rem;
+                span{
+                    color: #ffffff;
+                }
+            }
+            p{
+                text-align: center;
                 color: #ffffff;
             }
-        }
-        p{
-            text-align: center;
-            color: #ffffff;
-        }
-        a {
-            background-color: #fd3434;
-            color: #ffffff;
-            padding: 1rem;
-            border-radius: 5px;
-            margin-top: 1rem;
+            a {
+                background-color: #fd3434;
+                color: #ffffff;
+                padding: 1rem;
+                border-radius: 5px;
+                margin-top: 1rem;
+            }
         }
     }
     .about-name {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        img{
-            width: 1000px;
-            height: auto;
+        .about-me-foto{
+            margin-left: 20rem;
+            img{
+                width: 400px;
+                height: auto;
+            }
         }
         .about-text{
             h2{
@@ -46,8 +52,8 @@ main{
             }
             p{
                 text-align: center;
-                margin-left: 1rem;
-                margin-right: 1rem;
+                padding-left: 5rem;
+                padding-right: 5rem;
             }
         }
     }
@@ -129,6 +135,7 @@ main{
             background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/turismo.jpg);
             background-repeat: no-repeat;
             background-size: cover;
+            padding: 5rem;
             h3{
                 color: #ffffff;
             }
@@ -205,6 +212,200 @@ main{
                 color: #ffffff;
                 border: none;
                 padding: 1rem;
+            }
+        }
+    }
+    .chofer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 20rem;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
+        img{
+            width: 300px;
+            height: auto;
+            border-radius: 1rem;
+        }
+        .tex-chof{
+            h2{
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+            p{
+                padding-left: 10rem;
+                padding-right: 10rem;
+                text-align: center;
+            }
+        }
+    }
+    .cont-info{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem;
+        h2{
+            color: #000000;
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        form{
+            width: 38rem;
+            margin: auto;
+            background-color: #ffffff;
+            input{
+                margin: 12px;
+                padding: 8px;
+                width: 38rem;
+            }
+            textarea{
+                margin: 12px;
+                padding: 8px;
+                min-width: 38rem;
+                max-width: 38rem;
+                min-height: 100px;
+                max-height: 300px;
+            }
+            .btn {
+                background-color: #fd3434;
+                color: #ffffff;
+                border: none;
+                padding: 1rem;
+                }
+            }
+        }
+        .informacion{
+            ul{
+                text-align: center;
+                li{
+                    color: #000000;
+                    font-size: 20px;
+                    padding: 7px;
+                    span{
+                        color: #fd3434;
+                    }
+                    i{
+                        color: #ff893b;
+                    }
+                }
+            }
+        }
+    }
+    .sanderors{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        .info-sandero{
+            h2{
+                color: #000000;
+                text-align: center;
+                span{
+                    color: #fd3434;
+                }
+            }
+            p{
+                color: #525252;
+                text-align: center;
+            }
+        }
+        .foto-sandero{
+            img{
+            width:400px;
+            height: auto;
+            border-radius: 1rem;
+            }
+        }
+    }
+    .mercedes{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        .info-mercedes{
+            h2{
+                color: #000000;
+                text-align: center;
+                span{
+                    color: #fd3434;
+                }
+            }
+            p{
+                color: #525252;
+                text-align: center;
+            }
+        }
+        .foto-mercedes{
+            img{
+            width:400px;
+            height: auto;
+            border-radius: 1rem;
+            }
+        }
+    }
+    .master{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        .info-master{
+            h2{
+                color: #000000;
+                text-align: center;
+                span{
+                    color: #fd3434;
+                }
+            }
+            p{
+                color: #525252;
+                text-align: center;
+            }
+        }
+        .foto-master{
+            img{
+            width:400px;
+            height: auto;
+            border-radius: 1rem;
+            }
+        }
+    }
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        .info-box{
+            h2{
+                color: #000000;
+                text-align: center;
+                span{
+                    color: #fd3434;
+                }
+            }
+            p{
+                color: #525252;
+                text-align: center;
+            }
+        }
+        .foto-box{
+            img{
+            width:400px;
+            height: auto;
+            border-radius: 1rem;
             }
         }
     }

@@ -1,0 +1,99 @@
+@media screen and (max-width: 1349px) {
+    .hero{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/portada-uno.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        .informacion-hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                color: #ff893b;
+                margin-bottom: 1rem;
+                span{
+                    color: #ffffff;
+                }
+            }
+            p{
+                text-align: center;
+                color: #ffffff;
+            }
+            a {
+                background-color: #fd3434;
+                color: #ffffff;
+                padding: 1rem;
+                border-radius: 5px;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1349px) {
+    .about-name {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        .about-me-foto{
+            display: none;
+        }
+        .about-text{
+            p{
+                padding: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1349px) {
+    header{
+        background-color: #fd3434;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .bloque-uno{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .logo {
+                width: 150px;
+                height: auto;
+                h1{
+                    color: #ff893b;
+                    font-weight: 800;
+                    font-size: 1.5rem;
+                    span{
+                        color: #474747;
+                    }
+                }
+            }
+            .redes {
+                display: none;
+            }
+        }
+        .button{
+                display: block;
+                
+            }
+        .nav{
+            border: none;
+            width: 100%;
+            display: none;
+            opacity: 0;
+            height: 0vh;
+            pointer-events: none;
+            overflow: hidden;
+            transition: all .5s ease;
+            @include flex(row, nowrap, center, center);
+            .ul {
+                @include flex( column, wrap , center, center );
+            }
+            &.activo {
+                display: flex;
+                opacity: 1;
+                height: 50vh;
+                pointer-events: auto;
+            }
+        }
+    }
+}

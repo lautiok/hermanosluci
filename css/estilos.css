@@ -11,19 +11,17 @@ body {
   background-color: #ffffff; }
 
 header {
-  background-color: #fd3434; }
+  background-color: #fd3434;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   header .bloque-uno {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: .5rem; }
+    align-items: center; }
     header .bloque-uno .logo {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      header .bloque-uno .logo img {
-        width: 3rem;
-        height: auto; }
+      width: 150px;
+      height: auto; }
       header .bloque-uno .logo h1 {
         color: #ff893b;
         font-weight: 800;
@@ -35,48 +33,65 @@ header {
       header .bloque-uno .redes a i {
         color: #ffffff;
         font-size: 1.5em; }
-  header .bloque-dos {
+  header .button {
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none; }
+    header .button svg {
+      width: 30px;
+      height: 30px;
+      color: white;
+      transition: 0.3s; }
+  header .nav {
+    width: 100%;
     border: 0.1px solid #474747; }
-    header .bloque-dos ul {
+    header .nav .ul {
       display: flex;
+      flex-flow: wrap;
       justify-content: center;
       align-items: center; }
-      header .bloque-dos ul li {
+      header .nav .ul .li {
         padding: 1rem; }
-        header .bloque-dos ul li a {
+        header .nav .ul .li a {
+          text-decoration: none;
           color: #ffffff; }
 
 main .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/portada-uno.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15rem; }
-  main .hero h2 {
-    color: #ff893b;
-    margin-bottom: 1rem; }
-    main .hero h2 span {
+  padding-top: 15rem;
+  padding-bottom: 15rem; }
+  main .hero .informacion-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .hero .informacion-hero h2 {
+      color: #ff893b;
+      margin-bottom: 1rem; }
+      main .hero .informacion-hero h2 span {
+        color: #ffffff; }
+    main .hero .informacion-hero p {
+      text-align: center;
       color: #ffffff; }
-  main .hero p {
-    text-align: center;
-    color: #ffffff; }
-  main .hero a {
-    background-color: #fd3434;
-    color: #ffffff;
-    padding: 1rem;
-    border-radius: 5px;
-    margin-top: 1rem; }
+    main .hero .informacion-hero a {
+      background-color: #fd3434;
+      color: #ffffff;
+      padding: 1rem;
+      border-radius: 5px;
+      margin-top: 1rem; }
 
 main .about-name {
   display: flex;
   justify-content: space-around;
   align-items: center; }
-  main .about-name img {
-    width: 1000px;
-    height: auto; }
+  main .about-name .about-me-foto {
+    margin-left: 20rem; }
+    main .about-name .about-me-foto img {
+      width: 400px;
+      height: auto; }
   main .about-name .about-text h2 {
     color: #ff893b;
     margin-bottom: 1rem;
@@ -85,8 +100,8 @@ main .about-name {
       color: #525252; }
   main .about-name .about-text p {
     text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem; }
+    padding-left: 5rem;
+    padding-right: 5rem; }
 
 main .nuestros-vehiculos {
   display: flex;
@@ -154,7 +169,8 @@ main .destinos {
   main .destinos .turismo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/turismo.jpg);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    padding: 5rem; }
     main .destinos .turismo h3 {
       color: #ffffff; }
   main .destinos .excursiones {
@@ -214,6 +230,150 @@ main .formulario-de-contacto {
       border: none;
       padding: 1rem; }
 
+main .chofer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20rem;
+  margin-top: 4rem;
+  margin-bottom: 8rem; }
+  main .chofer img {
+    width: 300px;
+    height: auto;
+    border-radius: 1rem; }
+  main .chofer .tex-chof h2 {
+    text-align: center;
+    margin-bottom: 2rem; }
+  main .chofer .tex-chof p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center; }
+
+main .cont-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  main .cont-info .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem; }
+    main .cont-info .form h2 {
+      color: #000000;
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem; }
+    main .cont-info .form form {
+      width: 38rem;
+      margin: auto;
+      background-color: #ffffff; }
+      main .cont-info .form form input {
+        margin: 12px;
+        padding: 8px;
+        width: 38rem; }
+      main .cont-info .form form textarea {
+        margin: 12px;
+        padding: 8px;
+        min-width: 38rem;
+        max-width: 38rem;
+        min-height: 100px;
+        max-height: 300px; }
+      main .cont-info .form form .btn {
+        background-color: #fd3434;
+        color: #ffffff;
+        border: none;
+        padding: 1rem; }
+  main .cont-info .informacion ul {
+    text-align: center; }
+    main .cont-info .informacion ul li {
+      color: #000000;
+      font-size: 20px;
+      padding: 7px; }
+      main .cont-info .informacion ul li span {
+        color: #fd3434; }
+      main .cont-info .informacion ul li i {
+        color: #ff893b; }
+
+main .sanderors {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem; }
+  main .sanderors .info-sandero h2 {
+    color: #000000;
+    text-align: center; }
+    main .sanderors .info-sandero h2 span {
+      color: #fd3434; }
+  main .sanderors .info-sandero p {
+    color: #525252;
+    text-align: center; }
+  main .sanderors .foto-sandero img {
+    width: 400px;
+    height: auto;
+    border-radius: 1rem; }
+
+main .mercedes {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem; }
+  main .mercedes .info-mercedes h2 {
+    color: #000000;
+    text-align: center; }
+    main .mercedes .info-mercedes h2 span {
+      color: #fd3434; }
+  main .mercedes .info-mercedes p {
+    color: #525252;
+    text-align: center; }
+  main .mercedes .foto-mercedes img {
+    width: 400px;
+    height: auto;
+    border-radius: 1rem; }
+
+main .master {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem; }
+  main .master .info-master h2 {
+    color: #000000;
+    text-align: center; }
+    main .master .info-master h2 span {
+      color: #fd3434; }
+  main .master .info-master p {
+    color: #525252;
+    text-align: center; }
+  main .master .foto-master img {
+    width: 400px;
+    height: auto;
+    border-radius: 1rem; }
+
+main .box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem; }
+  main .box .info-box h2 {
+    color: #000000;
+    text-align: center; }
+    main .box .info-box h2 span {
+      color: #fd3434; }
+  main .box .info-box p {
+    color: #525252;
+    text-align: center; }
+  main .box .foto-box img {
+    width: 400px;
+    height: auto;
+    border-radius: 1rem; }
+
 footer .footer {
   display: flex;
   justify-content: space-around;
@@ -243,6 +403,91 @@ footer .segundo-bloque {
   text-align: center;
   padding: 1.5rem;
   border: 1px solid black; }
-  footer .segundo-bloque h3 {
-    color: #ffffff;
-    font-size: 1em; }
+  footer .segundo-bloque a {
+    text-decoration: none; }
+    footer .segundo-bloque a h3 {
+      color: #ffffff;
+      font-size: 1em; }
+
+@media screen and (max-width: 1349px) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/portada-uno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+    .hero .informacion-hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .hero .informacion-hero h2 {
+        color: #ff893b;
+        margin-bottom: 1rem; }
+        .hero .informacion-hero h2 span {
+          color: #ffffff; }
+      .hero .informacion-hero p {
+        text-align: center;
+        color: #ffffff; }
+      .hero .informacion-hero a {
+        background-color: #fd3434;
+        color: #ffffff;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem; } }
+
+@media screen and (max-width: 1349px) {
+  .about-name {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+    .about-name .about-me-foto {
+      display: none; }
+    .about-name .about-text p {
+      padding: 0; } }
+
+@media screen and (max-width: 1349px) {
+  header {
+    background-color: #fd3434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    header .bloque-uno {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      header .bloque-uno .logo {
+        width: 150px;
+        height: auto; }
+        header .bloque-uno .logo h1 {
+          color: #ff893b;
+          font-weight: 800;
+          font-size: 1.5rem; }
+          header .bloque-uno .logo h1 span {
+            color: #474747; }
+      header .bloque-uno .redes {
+        display: none; }
+    header .button {
+      display: block; }
+    header .nav {
+      border: none;
+      width: 100%;
+      display: none;
+      opacity: 0;
+      height: 0vh;
+      pointer-events: none;
+      overflow: hidden;
+      transition: all .5s ease;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center; }
+      header .nav .ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center; }
+      header .nav.activo {
+        display: flex;
+        opacity: 1;
+        height: 50vh;
+        pointer-events: auto; } }
