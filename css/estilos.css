@@ -410,39 +410,228 @@ footer .segundo-bloque {
       font-size: 1em; }
 
 @media screen and (max-width: 1349px) {
-  .hero {
+  main .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/portada-uno.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5rem;
     padding-bottom: 5rem; }
-    .hero .informacion-hero {
+    main .hero .informacion-hero {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      .hero .informacion-hero h2 {
+      main .hero .informacion-hero h2 {
         color: #ff893b;
         margin-bottom: 1rem; }
-        .hero .informacion-hero h2 span {
+        main .hero .informacion-hero h2 span {
           color: #ffffff; }
-      .hero .informacion-hero p {
+      main .hero .informacion-hero p {
         text-align: center;
         color: #ffffff; }
-      .hero .informacion-hero a {
+      main .hero .informacion-hero a {
         background-color: #fd3434;
         color: #ffffff;
         padding: 1rem;
         border-radius: 5px;
-        margin-top: 1rem; } }
+        margin-top: 1rem; }
+  main .about-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .about-name img {
+      display: none; }
+    main .about-name .about-text h2 {
+      color: #ff893b;
+      margin-bottom: 1rem;
+      text-align: center; }
+      main .about-name .about-text h2 span {
+        color: #525252; }
+    main .about-name .about-text p {
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0; }
+  main .chofer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0; }
+    main .chofer img {
+      margin-bottom: 1rem; }
+    main .chofer .tex-chof h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem; }
+    main .chofer .tex-chof p {
+      padding: 1rem; }
+  main .sanderors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem; }
+    main .sanderors .info-sandero h2 {
+      color: #000000;
+      text-align: center; }
+      main .sanderors .info-sandero h2 span {
+        color: #fd3434; }
+    main .sanderors .info-sandero p {
+      color: #525252;
+      text-align: center; }
+    main .sanderors .foto-sandero img {
+      width: 400px;
+      height: auto;
+      border-radius: 1rem; }
+  main .mercedes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem; }
+    main .mercedes .info-mercedes h2 {
+      color: #000000;
+      text-align: center; }
+      main .mercedes .info-mercedes h2 span {
+        color: #fd3434; }
+    main .mercedes .info-mercedes p {
+      color: #525252;
+      text-align: center; }
+    main .mercedes .foto-mercedes img {
+      width: 400px;
+      height: auto;
+      border-radius: 1rem; }
+  main .master {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem; }
+    main .master .info-master h2 {
+      color: #000000;
+      text-align: center; }
+      main .master .info-master h2 span {
+        color: #fd3434; }
+    main .master .info-master p {
+      color: #525252;
+      text-align: center; }
+    main .master .foto-master img {
+      width: 400px;
+      height: auto;
+      border-radius: 1rem; }
+  main .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem; }
+    main .box .info-box h2 {
+      color: #000000;
+      text-align: center; }
+      main .box .info-box h2 span {
+        color: #fd3434; }
+    main .box .info-box p {
+      color: #525252;
+      text-align: center; }
+    main .box .foto-box img {
+      width: 400px;
+      height: auto;
+      border-radius: 1rem; }
+  main .cont-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .cont-info .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      padding-top: 1rem; }
+      main .cont-info .form h2 {
+        color: #000000;
+        width: 0;
+        text-align: center;
+        margin-top: 1rem; }
+      main .cont-info .form form {
+        width: 18rem;
+        margin: auto;
+        background-color: #ffffff; }
+        main .cont-info .form form input {
+          margin: 12px;
+          padding: 8px;
+          width: 18rem; }
+        main .cont-info .form form textarea {
+          margin: 12px;
+          padding: 8px;
+          min-width: 18rem;
+          max-width: 18rem;
+          min-height: 100px;
+          max-height: 300px; }
+        main .cont-info .form form .btn {
+          background-color: #fd3434;
+          color: #ffffff;
+          border: none;
+          padding: 1rem; }
+    main .cont-info .informacion {
+      border: 0.1px solid #474747;
+      margin-top: 4rem;
+      margin-bottom: 4rem; }
+      main .cont-info .informacion ul {
+        text-align: center; }
+        main .cont-info .informacion ul li {
+          color: #000000;
+          font-size: 20px;
+          padding: 7px; }
+          main .cont-info .informacion ul li span {
+            color: #fd3434; }
+          main .cont-info .informacion ul li i {
+            color: #ff893b; }
+  main .formulario-de-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 1rem; }
+    main .formulario-de-contacto h2 {
+      color: #000000;
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem; }
+    main .formulario-de-contacto form {
+      width: 18rem;
+      margin: auto;
+      background-color: #ffffff; }
+      main .formulario-de-contacto form input {
+        margin: 12px;
+        padding: 8px;
+        width: 18rem; }
+      main .formulario-de-contacto form textarea {
+        margin: 12px;
+        padding: 8px;
+        min-width: 18rem;
+        max-width: 18rem;
+        min-height: 100px;
+        max-height: 300px; }
+      main .formulario-de-contacto form .btn {
+        background-color: #fd3434;
+        color: #ffffff;
+        border: none;
+        padding: 1rem; } }
 
 @media screen and (max-width: 1349px) {
-  .about-name {
+  main .about-name {
     margin-top: 2rem;
     margin-bottom: 2rem; }
-    .about-name .about-me-foto {
+    main .about-name .about-me-foto {
       display: none; }
-    .about-name .about-text p {
+    main .about-name .about-text p {
       padding: 0; } }
 
 @media screen and (max-width: 1349px) {
@@ -453,8 +642,9 @@ footer .segundo-bloque {
     justify-content: center; }
     header .bloque-uno {
       display: flex;
-      justify-content: space-around;
-      align-items: center; }
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 1rem; }
       header .bloque-uno .logo {
         width: 150px;
         height: auto; }
@@ -464,10 +654,14 @@ footer .segundo-bloque {
           font-size: 1.5rem; }
           header .bloque-uno .logo h1 span {
             color: #474747; }
-      header .bloque-uno .redes {
-        display: none; }
+      header .bloque-uno .redes a i {
+        font-size: 1.2em; }
     header .button {
-      display: block; }
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 1rem;
+      margin-bottom: 1rem; }
     header .nav {
       border: none;
       width: 100%;
@@ -490,4 +684,9 @@ footer .segundo-bloque {
         display: flex;
         opacity: 1;
         height: 50vh;
-        pointer-events: auto; } }
+        pointer-events: auto; }
+  footer .footer {
+    display: flex;
+    flex-direction: column; }
+    footer .footer .logo {
+      margin-bottom: 1rem; } }
