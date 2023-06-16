@@ -44,6 +44,9 @@ header {
       color: white;
       transition: 0.3s; }
   header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     border: 0.1px solid #474747; }
     header .nav .ul {
