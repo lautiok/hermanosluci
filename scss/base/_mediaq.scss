@@ -20,6 +20,8 @@
             p{
                 text-align: center;
                 color: #ffffff;
+                margin-left: .5rem;
+                margin-right: .5rem;
             }
             a {
                 background-color: #fd3434;
@@ -325,9 +327,11 @@
                 }
             }
             .redes {
+                margin-right: 1rem;
                 a{
+                    padding: 2px;
                     i{
-                        font-size: 1.2em;
+                        font-size: 1.5em;
                     }  
                 }
                 

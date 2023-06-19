@@ -431,7 +431,9 @@ footer .segundo-bloque {
           color: #ffffff; }
       main .hero .informacion-hero p {
         text-align: center;
-        color: #ffffff; }
+        color: #ffffff;
+        margin-left: .5rem;
+        margin-right: .5rem; }
       main .hero .informacion-hero a {
         background-color: #fd3434;
         color: #ffffff;
@@ -657,8 +659,12 @@ footer .segundo-bloque {
           font-size: 1.5rem; }
           header .bloque-uno .logo h1 span {
             color: #474747; }
-      header .bloque-uno .redes a i {
-        font-size: 1.2em; }
+      header .bloque-uno .redes {
+        margin-right: 1rem; }
+        header .bloque-uno .redes a {
+          padding: 2px; }
+          header .bloque-uno .redes a i {
+            font-size: 1.5em; }
     header .button {
       display: flex;
       justify-content: flex-end;
