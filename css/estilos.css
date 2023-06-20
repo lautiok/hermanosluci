@@ -170,32 +170,32 @@ main .destinos {
     main .destinos .eventos-empresariales h3 {
       color: #ffffff; }
   main .destinos .turismo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/turismo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/turismo.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5rem; }
     main .destinos .turismo h3 {
       color: #ffffff; }
   main .destinos .excursiones {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/excurciones.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/excurciones.webp);
     background-repeat: no-repeat;
     background-size: cover; }
     main .destinos .excursiones h3 {
       color: #ffffff; }
   main .destinos .casamientos {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/casamiento.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/casamiento.webp);
     background-repeat: no-repeat;
     background-size: cover; }
     main .destinos .casamientos h3 {
       color: #ffffff; }
   main .destinos .cumpleanios {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/cumple.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/cumple.webp);
     background-repeat: no-repeat;
     background-size: cover; }
     main .destinos .cumpleanios h3 {
       color: #ffffff; }
   main .destinos .eventos {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/eventos-deportivos.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/eventos-deportivos.webp);
     background-repeat: no-repeat;
     background-size: cover; }
     main .destinos .eventos h3 {
@@ -251,6 +251,20 @@ main .chofer {
   main .chofer .tex-chof p {
     padding-left: 10rem;
     padding-right: 10rem;
+    text-align: center; }
+
+main .about-name-dos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7rem; }
+  main .about-name-dos .about-text h2 {
+    color: #ff893b;
+    margin-bottom: 1rem;
+    text-align: center; }
+    main .about-name-dos .about-text h2 span {
+      color: #525252; }
+  main .about-name-dos .about-text p {
     text-align: center; }
 
 main .cont-info {

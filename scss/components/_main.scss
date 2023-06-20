@@ -132,7 +132,7 @@ main{
             
         }
         .turismo{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/turismo.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/turismo.webp);
             background-repeat: no-repeat;
             background-size: cover;
             padding: 5rem;
@@ -142,7 +142,7 @@ main{
             
         }
         .excursiones{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/excurciones.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/excurciones.webp);
             background-repeat: no-repeat;
             background-size: cover;
             h3{
@@ -151,7 +151,7 @@ main{
             
         }
         .casamientos{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/casamiento.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/casamiento.webp);
             background-repeat: no-repeat;
             background-size: cover;
             h3{
@@ -160,7 +160,7 @@ main{
             
         }
         .cumpleanios{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/cumple.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/cumple.webp);
             background-repeat: no-repeat;
             background-size: cover;
             h3{
@@ -169,7 +169,7 @@ main{
             
         }
         .eventos{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/eventos-deportivos.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/eventos-deportivos.webp);
             background-repeat: no-repeat;
             background-size: cover;
             h3{
@@ -236,6 +236,25 @@ main{
             p{
                 padding-left: 10rem;
                 padding-right: 10rem;
+                text-align: center;
+            }
+        }
+    }
+    .about-name-dos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 7rem;
+        .about-text{
+            h2{
+                color: #ff893b;
+                margin-bottom: 1rem;
+                text-align: center;
+                span{
+                    color: #525252;
+                }
+            }
+            p{
                 text-align: center;
             }
         }
