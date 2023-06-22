@@ -157,47 +157,84 @@ main .destinos {
   justify-content: center;
   align-items: center;
   flex-flow: wrap; }
-  main .destinos div {
-    padding: 5rem;
+  main .destinos .eventos-empresariales {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/negocios.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
     border-radius: 1rem;
-    margin-left: 1rem;
+    margin-left: 16px;
     margin-bottom: 2rem;
     margin-top: 2rem; }
-  main .destinos .eventos-empresariales {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/empresarial.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; }
     main .destinos .eventos-empresariales h3 {
-      color: #ffffff; }
+      color: #ffffff;
+      text-align: center; }
   main .destinos .turismo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/turismo.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5rem; }
+    padding: 80px;
+    padding-left: 140px;
+    padding-right: 140px;
+    border-radius: 1rem;
+    margin-left: 16px;
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
     main .destinos .turismo h3 {
-      color: #ffffff; }
+      color: #ffffff;
+      text-align: center; }
   main .destinos .excursiones {
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/excurciones.webp);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    padding: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 1rem;
+    margin-left: 16px;
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
     main .destinos .excursiones h3 {
       color: #ffffff; }
   main .destinos .casamientos {
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/casamiento.webp);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    padding: 80px;
+    padding-left: 110px;
+    padding-right: 110px;
+    border-radius: 1rem;
+    margin-left: 16px;
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
     main .destinos .casamientos h3 {
       color: #ffffff; }
   main .destinos .cumpleanios {
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/cumple.webp);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    padding: 80px;
+    padding-left: 110px;
+    padding-right: 110px;
+    border-radius: 1rem;
+    margin-left: 16px;
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
     main .destinos .cumpleanios h3 {
       color: #ffffff; }
   main .destinos .eventos {
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/eventos-deportivos.webp);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    padding: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 1rem;
+    margin-left: 16px;
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
     main .destinos .eventos h3 {
       color: #ffffff; }
 
