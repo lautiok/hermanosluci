@@ -462,7 +462,25 @@ footer .segundo-bloque {
     footer .segundo-bloque a h3 {
       color: #ffffff;
       font-size: 1em; }
-
+      .menv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        margin-top: 2rem;
+      }
+      .menv img{
+        width: 400px;
+        height: auto;
+      }
+      .menv a{
+        background-color: #ff2222;
+        color: #ffffff;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+      }
 @media screen and (max-width: 1349px) {
   main .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url(../img/portada-uno.jpg);
