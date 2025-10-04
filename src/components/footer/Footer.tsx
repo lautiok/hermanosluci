@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./footer.module.css";
 import Link from "next/link";
-import { Instagram, Linkedin, Facebook } from "lucide-react";
+import { Instagram } from "lucide-react";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
@@ -22,7 +22,7 @@ export default function Footer() {
             </div>
             <div className={styles.footerLinksItem}>
               <Link href="/privacidad">Política de Privacidad</Link>
-              <Link href="/#servicios">Sobre Nuestros Servicios</Link>
+              <Link href="/faq">Preguntas Frecuentes</Link>
             </div>
             <div className={styles.footerredesItem}>
               <a
