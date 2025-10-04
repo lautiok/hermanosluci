@@ -29,14 +29,24 @@
   color: #ffffff;
 }
 
+/* ===================== LISTAS ===================== */
 .nav ul {
+  list-style: none; /* 🔥 quita los puntos */
+  margin: 0;
+  padding: 0;
   display: flex;
   gap: 1rem;
+}
+
+.nav ul li {
+  margin: 0;
+  padding: 0;
 }
 
 .nav ul a {
   font-family: var(--font-molika);
   color: #d9d9d9;
+  text-decoration: none;
 }
 
 .header button {
@@ -55,6 +65,7 @@
   font-family: var(--font-molika);
   color: #ffffff;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 .notification {

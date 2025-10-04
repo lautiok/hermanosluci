@@ -29,7 +29,9 @@ export default function Header() {
       </div>
       <nav className={`${styles.nav} ${isSticky ? styles.fixed : ""}`}>
         <section className={styles.navLogo}>
-          <Link href="/"><h1>Hermanos Luci</h1></Link>
+          <Link href="/">
+            <h1>Hermanos Luci</h1>
+          </Link>
         </section>
 
         {/* Botón Hamburguesa */}
@@ -37,15 +39,30 @@ export default function Header() {
           className={styles.menuToggle}
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          {menuOpen ?  <CircleX /> : <Menu /> }
+          {menuOpen ? <CircleX /> : <Menu />}
         </button>
 
-        {/* Links */}
         <ul className={menuOpen ? styles.show : ""}>
-          <Link href="/#servicios" onClick={() => setMenuOpen(false)}>SERVICIOS</Link>
-          <Link href="/#destinos" onClick={() => setMenuOpen(false)}>DESTINOS</Link>
-          <Link href="/flota" onClick={() => setMenuOpen(false)}>VEHICULOS</Link>
-          <Link href="/#clientes" onClick={() => setMenuOpen(false)}>CLIENTES</Link>
+          <li>
+            <Link href="/#servicios" onClick={() => setMenuOpen(false)}>
+              SERVICIOS
+            </Link>
+          </li>
+          <li>
+            <Link href="/#destinos" onClick={() => setMenuOpen(false)}>
+              DESTINOS
+            </Link>
+          </li>
+          <li>
+            <Link href="/flota" onClick={() => setMenuOpen(false)}>
+              VEHICULOS
+            </Link>
+          </li>
+          <li>
+            <Link href="/#clientes" onClick={() => setMenuOpen(false)}>
+              CLIENTES
+            </Link>
+          </li>
         </ul>
 
         {/* Botón Cotización en desktop */}
