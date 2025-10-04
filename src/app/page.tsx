@@ -5,6 +5,7 @@ import Servicios from "@/components/servicios/Servicios";
 import Destinos from "@/components/destinos/Destinos";
 import Clientes from "@/components/clientes/Clientes";
 import Carrousel from "@/components/carrousel/Carrousel";
+import Opiniones from "@/components/opiniones/Opiniones";
 
 export const metadata: Metadata = {
   title: "HL Transporte - Hermanos Luci | Transporte de Turismo en Córdoba",
@@ -65,6 +66,7 @@ export default function Home() {
       <Servicios />
       <Destinos />
       <Clientes />
+      <Opiniones />
     </main>
   );
 }
