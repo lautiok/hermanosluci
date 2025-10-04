@@ -31,7 +31,7 @@ export default function Hero() {
       </div>
 
       <div className={styles.bajar}>
-        <a href="#servicios">
+        <a href="#servicios" arial-label="Bajar a servicios">
           <CircleArrowDown color="#fff" size={25} />
         </a>
       </div>
