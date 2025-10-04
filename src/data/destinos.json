@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "destino": "Cosquín",
+    "origen": "Córdoba",
+    "urlImagen": "/cosquin.jpg"
+  },
+  {
+    "id": 2,
+    "destino": "Villa Carloz Paz",
+    "origen": "Córdoba",
+    "urlImagen": "/mendoza.webp"
+  },
+
+  {
+    "id": 3,
+    "destino": "Villa General Belgrano",
+    "origen": "Córdoba",
+    "urlImagen": "/villa-general.jpeg"
+  },
+  {
+    "id": 4,
+    "destino": "Miramar de Ansenuza",
+    "origen": "Córdoba",
+    "urlImagen": "/miramar.jpg"
+  },
+  {
+    "id": 5,
+    "destino": "Villa Cura Brochero",
+    "origen": "Córdoba",
+    "urlImagen": "/villa-cura-brochero.jpg"
+  },
+  {
+    "id": 6,
+    "destino": "Río Ceballos",
+    "origen": "Córdoba",
+    "urlImagen": "/rio-ceballos.jpg"
+  }
+]

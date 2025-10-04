@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "svg": "plane",
+    "name": "translados al aeropuerto",
+    "description": "Servicio puerta a puerta, asegurando que llegues a tiempo para tu vuelo",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "svg": "wine",
+    "name": "translados a eventos",
+    "description": "Bodas, cumpleaños, fiestas y ceremonias. Llegá seguro y puntual a tu evento",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "svg": "MapMinus",
+    "name": "translados Excursiones",
+    "description": "Paseos turísticos por los principales destinos de Córdoba. visitar sierras, lagos, pueblos y atractivos culturales de la provincia.",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "svg": "BriefcaseBusiness",
+    "name": "translados corporativos",
+    "description": "Reuniones de negocios, conferencias y eventos empresariales.",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "svg": "school",
+    "name": "translados escolares",
+    "description": "Servicio para estudiantes de primaria, secundaria y universidad",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "svg": "medal",
+    "name": "translados deportivos",
+    "description": "Para deportistas, clubes y delegaciones a entrenamientos o competencias locales e interprovinciales.",
+    "link": "#"
+  }
+]

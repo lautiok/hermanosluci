@@ -1,0 +1,147 @@
+.header {
+  position: relative;
+  z-index: 10;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  background-color: #00000075;
+  width: 100%;
+  transition: all 0.6s ease;
+  transform: translateY(0);
+}
+
+.nav.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  background-color: #000000cc;
+  transform: translateY(-6px);
+  transition: transform 0.6s ease;
+}
+
+.navLogo h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav ul a {
+  font-family: var(--font-molika);
+  color: #d9d9d9;
+}
+
+.header button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.header button:hover {
+  border: 2px solid #ffffffb7;
+}
+
+.header button a {
+  font-family: var(--font-molika);
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.notification {
+  position: relative;
+  z-index: 10;
+}
+
+/* Botón hamburguesa (oculto en desktop) */
+.menuToggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+/* ===================== RESPONSIVE ===================== */
+
+/* Tablet y Mobile */
+@media screen and (max-width: 768px) {
+  .nav {
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+  }
+
+  /* Menú mobile oculto por defecto */
+  .nav ul {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background: #000000e6;
+    padding: 1rem;
+    gap: 1rem;
+    transform: translateY(-200%);
+    opacity: 0;
+    transition: all 0.4s ease;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Menú mobile visible */
+  .nav ul.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  /* Botón Cotización en desktop se oculta */
+  .ctaDesktop {
+    display: none;
+  }
+
+  /* Hamburguesa visible */
+  .menuToggle {
+    display: block;
+  }
+
+  /* Ajustes de tipografía */
+  .nav ul a {
+    font-size: 1rem;
+  }
+
+  .nav ul li button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .nav ul li button a {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+}
+
+/* Celulares chicos */
+@media screen and (max-width: 430px) {
+  .navLogo h1 {
+    font-size: 1.2rem;
+  }
+
+  .nav ul {
+    gap: 0.8rem;
+  }
+
+  .nav ul a {
+    font-size: 0.9rem;
+  }
+}
