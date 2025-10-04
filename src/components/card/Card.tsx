@@ -3,15 +3,13 @@ import { CardType } from "@/type/card";
 import styles from "./card.module.css";
 import {
   Plane,
-  Users,
-  Split,
   School,
   LoaderPinwheel,
   BusFront,
   Wine,
-  Medal,
   BriefcaseBusiness,
   MapPinMinus,
+  Medal,
 } from "lucide-react";
 
 export default function Card({ svg, name, description, id }: CardType) {
@@ -30,8 +28,10 @@ export default function Card({ svg, name, description, id }: CardType) {
           <School color="#ff9d3c" />
         ) : svg === "loader" ? (
           <LoaderPinwheel color="#ff9d3c" />
-        ) : (
+           ) : svg === "medal" ? (
           <Medal color="#ff9d3c" />
+        ) : (
+          <BusFront  color="#ff9d3c" />
         )}
       </header>
       <div className={styles.cardsContent}>

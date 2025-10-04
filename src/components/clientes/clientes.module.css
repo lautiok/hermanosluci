@@ -24,6 +24,7 @@
 .galeryImg {
   overflow: hidden; /* Asegura que las imágenes no se desborden */
   height: 320px; /* Altura fija para todas las imágenes */
+  cursor: pointer; /* Indica que es clickeable */
 }
 
 .galeryImg img {
@@ -38,6 +39,80 @@
   transform: scale(1.1);
 }
 
+/* Estilos del modal - Ocupa toda la página */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modalContent {
+  position: relative;
+  max-width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: zoomIn 0.3s ease-in-out;
+}
+
+.modalContent img {
+  width: auto;
+  height: 80vh; /* Altura fija uniforme para todas las imágenes del modal */
+  max-width: 90vw;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.closeButton {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  z-index: 10000;
+  line-height: 1;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.closeButton:hover {
+  color: #ff9d3c;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .galery {
     grid-template-columns: repeat(2, 1fr); /* 2 columnas */
@@ -49,5 +124,15 @@
   .galeryImg img {
     width: 100%; /* Las imágenes ocupan todo el ancho del contenedor */
     height: 100%; /* Ocupa la altura del contenedor */
+  }
+
+  .closeButton {
+    font-size: 2.5rem;
+    top: -40px;
+  }
+
+  .modalContent img {
+    height: 70vh; /* Altura fija para móvil */
+    max-width: 95vw;
   }
 }
