@@ -5,9 +5,10 @@ import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import WhatsappButton from "@/components/WhatsappButton/WhatsappButton";
+import StructuredData from "@/components/structured-data/StructuredData";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.hermanosluci.com.ar/"),
+  metadataBase: new URL("https://www.hermanosluci.com.ar"),
   title: {
     default: "HL Transporte - Hermanos Luci | Servicio de Transporte en Córdoba",
     template: "%s | HL Transporte",
@@ -64,11 +65,7 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  verification: {
-    // Agregá acá tu Google Search Console verification code cuando lo tengas
-    // google: 'tu-codigo-de-verificacion',
-  },
+  }
 };
 
 const RajdhaniFont = Rajdhani({
@@ -91,6 +88,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <StructuredData />
+      </head>
       <body className={`${RajdhaniFont.variable} ${localFont.variable}`}>
         <Header />
         {children}
