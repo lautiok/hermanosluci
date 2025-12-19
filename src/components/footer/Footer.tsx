@@ -23,6 +23,7 @@ export default function Footer() {
             <div className={styles.footerLinksItem}>
               <Link href="/privacidad">Política de Privacidad</Link>
               <Link href="/faq">Preguntas Frecuentes</Link>
+              <Link href="/recursos">Recursos</Link>
             </div>
             <div className={styles.footerredesItem}>
               <a
