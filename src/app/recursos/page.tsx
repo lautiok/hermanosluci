@@ -48,6 +48,13 @@ export const metadata: Metadata = {
 
 const recursos = [
   {
+    slug: "festival-jesus-maria-2026",
+    title: "Festival Jesús María 2026: fechas, grilla completa, precios y cómo organizar tu viaje",
+    description:
+      "Guía completa del Festival Nacional de Doma y Folklore de Jesús María 2026. Fechas, horarios, grilla día por día, precios de entradas y consejos prácticos para llegar y volver sin complicaciones.",
+    date: "2026",
+  },
+  {
     slug: "lugares-cordoba-visitar-verano",
     title: "Lugares de Córdoba para visitar en verano: destinos, festivales y consejos prácticos",
     description:
@@ -84,5 +91,7 @@ export default function RecursosPage() {
     </main>
   );
 }
+
+
 
 
