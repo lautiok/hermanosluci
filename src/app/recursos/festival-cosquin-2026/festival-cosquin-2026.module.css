@@ -1,0 +1,348 @@
+.main {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2rem 1rem;
+}
+
+.article {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.portada {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portadaImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.header {
+  padding: 3rem 2rem 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.content {
+  padding: 0 2rem 3rem;
+  color: #333;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  margin-top: 3rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ff9d3c;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #ff9d3c;
+  padding-bottom: 0.5rem;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.5rem 0;
+}
+
+.section ul li {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+
+
+.section strong {
+  color: #000;
+  font-weight: 600;
+}
+
+.lunaCard {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-left: 4px solid #ff9d3c;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lunaCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.lunaHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.lunaNumber {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff9d3c;
+  min-width: 60px;
+}
+
+.lunaInfo {
+  flex: 1;
+}
+
+.lunaInfo h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.lunaDate {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.lunaImage {
+  width: 100%;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.artistasList {
+  margin: 1.5rem 0;
+}
+
+.artistasList h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.artistasList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.artistasList ul li {
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  margin: 0;
+  position: relative;
+  color: #555;
+  font-size: 1rem;
+}
+
+.artistasList ul li::before {
+  content: "🎵";
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
+}
+
+.precios {
+  background: #fffbf5;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.precios h4 {
+  font-size: 1.1rem;
+  color: #ff9d3c;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.precios ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.precios ul li {
+  padding: 0.4rem 0;
+  color: #333;
+  font-weight: 500;
+}
+
+.consejos {
+  background: linear-gradient(135deg, #fff7e6 0%, #fffbf5 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 3rem 0;
+  border: 2px solid #ff9d3c;
+}
+
+.consejos h3 {
+  color: #ff9d3c;
+  margin-top: 0;
+}
+
+.faq {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.faq h2 {
+  color: #ff9d3c;
+  border-bottom: 3px solid #ff9d3c;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.faqItem {
+  margin-bottom: 2rem;
+}
+
+.faqItem h3 {
+  font-size: 1.3rem;
+  color: #000;
+  margin-bottom: 0.8rem;
+}
+
+.faqItem p {
+  color: #555;
+  margin: 0;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem;
+  padding: 0.8rem 1.5rem;
+  background: #ff9d3c;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.backLink:hover {
+  background: #e88a2a;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem 0.5rem;
+  }
+
+  .portada {
+    height: 250px;
+  }
+
+  .header {
+    padding: 2rem 1.5rem 1.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .content {
+    padding: 0 1.5rem 2rem;
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+  }
+
+  .section h3 {
+    font-size: 1.3rem;
+  }
+
+  .lunaCard {
+    padding: 1.5rem;
+  }
+
+  .lunaHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .lunaNumber {
+    font-size: 2rem;
+  }
+
+  .lunaInfo h3 {
+    font-size: 1.4rem;
+  }
+
+  .consejos {
+    padding: 1.5rem;
+  }
+
+  .faq {
+    padding: 1.5rem;
+  }
+
+  .backLink {
+    margin: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    font-size: 0.95rem;
+  }
+
+  .section h2 {
+    font-size: 1.4rem;
+  }
+
+  .lunaCard {
+    padding: 1rem;
+  }
+
+  .lunaNumber {
+    font-size: 1.8rem;
+  }
+
+  .lunaInfo h3 {
+    font-size: 1.2rem;
+  }
+}

@@ -48,6 +48,13 @@ export const metadata: Metadata = {
 
 const recursos = [
   {
+    slug: "festival-cosquin-2026",
+    title: "Festival Nacional de Folklore de Cosquín 2026: guía completa para vivirlo sin contratiempos",
+    description:
+      "Todo lo que necesitás saber sobre el Festival de Cosquín 2026: grilla completa noche por noche, precios, consejos prácticos y cómo organizar tu viaje para disfrutarlo de principio a fin.",
+    date: "2026",
+  },
+  {
     slug: "festival-jesus-maria-2026",
     title: "Festival Jesús María 2026: fechas, grilla completa, precios y cómo organizar tu viaje",
     description:
