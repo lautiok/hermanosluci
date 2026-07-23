@@ -8,7 +8,7 @@ export default function PoliticaPrivacidad() {
         privacidad de nuestros usuarios y clientes. Esta Política de Privacidad
         describe cómo recopilamos, usamos y protegemos la información personal
         que nos proporcionas a través de nuestro sitio web
-        www.hltransporte.com.ar.
+        www.hermanosluci.com.ar.
       </p>
       <p>
         1. Información que Recopilamos Recopilamos información personal que tú,
@@ -53,7 +53,7 @@ export default function PoliticaPrivacidad() {
         eliminación de tus datos personales en cualquier momento. Oposición:
         Puedes oponerte al tratamiento de tus datos con fines de marketing u
         otros fines legítimos. Para ejercer estos derechos, contáctanos a través
-        de contacto@hltransporte.com.ar.
+        de contacto@hermanosluci.com.ar.
       </p>
 
       <p>
@@ -66,7 +66,7 @@ export default function PoliticaPrivacidad() {
         7. Contacto Si tienes preguntas o inquietudes sobre nuestra Política de
         Privacidad, o deseas ejercer tus derechos, puedes comunicarte con
         nosotros a través de: <br /> Correo electrónico:
-        contacto@hltransporte.com.ar
+        contacto@hermanosluci.com.ar
         <br /> Teléfono: +54 03515326971
       </p>
       <p>Fecha de última actualización: {new Date().toLocaleDateString()}</p>

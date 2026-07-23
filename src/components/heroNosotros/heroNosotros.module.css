@@ -3,9 +3,7 @@
   background-image: url("../../assets/hero-sobre-nosotros.jpeg");
   background-size: cover;
   background-position: center;
-  height: 45vh;
-  position: absolute;
-  top: 2rem;
+  min-height: 42vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +29,7 @@
 }
 
 .heroContent h1 {
-  font-size: 8rem;
+  font-size: clamp(2.5rem, 7vw, 8rem);
   font-weight: 600;
   margin-bottom: 1rem;
   font-family: var(--font-molika);
@@ -66,26 +64,15 @@
   font-weight: 600;
 }
 
-@media screen and (max-width: 1000px) {
-  .heroContent h1 {
-    font-size: 6rem;
-    margin-bottom: 0.5rem;
-  }
-}
-
 @media screen and (max-width: 800px) {
   .hero {
-    height: 90vh;
+    min-height: 38vh;
     padding: 1rem;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
   }
   .heroContent {
     width: 100%;
-  }
-  .heroContent h1 {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
   }
   .heroContent p {
     font-size: 1.5rem;

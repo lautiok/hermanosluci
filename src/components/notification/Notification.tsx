@@ -6,7 +6,7 @@ export default function Notification() {
     <section className={styles.notification}>
       <div className={styles.notification_email_number}>
         <div className={styles.notification_contact}>
-          <a href="mailto:cotizaciones@hltransporte.com.ar" target="_blank">
+          <a href="mailto:cotizaciones@hermanosluci.com.ar" target="_blank">
             <Mail />
             <span>hermanosluciviajes@gmail.com</span>
           </a>

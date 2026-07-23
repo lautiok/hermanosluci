@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 4rem;
-  margin-top: 50vh; /* O el valor que necesites según el tamaño de tu hero */
+  margin-top: 3rem;
 }
 
 .cards {
@@ -12,16 +12,5 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-}
-
-@media screen and (max-width: 600px) {
-  .flota {
-    margin-top: 40vh;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .flota {
-    margin-top: 36vh;
-  }
+  padding: 0 1rem;
 }

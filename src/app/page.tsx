@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     description:
       "HL Transporte ofrece servicios de transporte de turismo en Córdoba con unidades modernas y cómodas. Realizamos viajes a destinos turísticos, excursiones escolares y traslados corporativos.",
     type: "website",
-    url: "https://hltransporte.com.ar",
+    url: "https://www.hermanosluci.com.ar",
     images: [
       {
-        url: "https://hltransporte.com.ar/og-image.png",
+        url: "https://www.hermanosluci.com.ar/og-image.jpeg",
         width: 1200,
         height: 630,
         alt: "HL Transporte - Hermanos Luci",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "HL Transporte - Hermanos Luci | Transporte de Turismo en Córdoba",
     description:
       "HL Transporte ofrece servicios de transporte de turismo en Córdoba con unidades modernas y cómodas.",
-    images: ["https://hltransporte.com.ar/og-image.png"],
+    images: ["https://www.hermanosluci.com.ar/og-image.jpeg"],
   },
   robots: {
     index: true,
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://hltransporte.com.ar",
+    canonical: "https://www.hermanosluci.com.ar",
   },
 };
 

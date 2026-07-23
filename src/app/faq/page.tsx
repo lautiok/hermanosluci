@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       "Encuentra respuestas a las preguntas más frecuentes sobre nuestros servicios de transporte en Córdoba.",
     type: "website",
-    url: "https://hltransporte.com.ar/faq",
+    url: "https://www.hermanosluci.com.ar/faq",
   },
 };
 

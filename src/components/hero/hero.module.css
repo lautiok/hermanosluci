@@ -54,7 +54,7 @@
 }
 
 .heroContent h1 {
-  font-size: 8rem;
+  font-size: clamp(2.2rem, 6vw, 8rem);
   font-weight: 600;
   font-family: var(--font-molika);
   color: #ffffff;
@@ -69,13 +69,13 @@
 }
 
 .banderas img {
-  height: 80px;
+  height: clamp(28px, 5vw, 80px);
   width: auto;
 }
 
 .heroContent p {
   max-width: 900px;
-  font-size: 2rem;
+  font-size: clamp(0.95rem, 1.8vw, 2rem);
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 2rem;
@@ -103,20 +103,7 @@
 
 /* ================== RESPONSIVE ================== */
 
-/* Laptop y pantallas medianas */
-@media screen and (max-width: 1000px) {
-  .heroContent h1 {
-    font-size: 6rem;
-  }
-  .banderas img {
-    height: 60px;
-  }
-  .heroContent p {
-    font-size: 1.6rem;
-  }
-}
-
-/* Tablets */
+/* Tablets: clamp() gobierna el tamaño de fuente; aquí solo ajustes de layout */
 @media screen and (max-width: 800px) {
   .hero {
     height: 80vh; /* más chico que desktop */
@@ -125,14 +112,7 @@
   .heroContent {
     width: 100%;
   }
-  .heroContent h1 {
-    font-size: 3.5rem;
-  }
-  .banderas img {
-    height: 40px;
-  }
   .heroContent p {
-    font-size: 1.2rem;
     margin-bottom: 1rem;
   }
   .heroContent button {
